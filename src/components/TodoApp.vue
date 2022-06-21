@@ -14,15 +14,15 @@
           type="text"
           v-model="task"
           placeholder="Create a new task..."
-          class="p-3 text-2xl rounded-lg bg-transparent transition duration-300 ease-in-out focus:bg-white hover:bg-white focus:outline-none hover:border-blue-300 focus:border-blue-300 border-2 text-gray-600 w-3/4"
+          class="px-3 py-1 md:py-3 text-lg md:text-2xl rounded-lg bg-transparent transition duration-300 ease-in-out focus:bg-white hover:bg-white focus:outline-none hover:border-blue-300 focus:border-blue-300 border-2 text-gray-600 w-3/4"
         />
         <button
           @click="submitTask"
-          class="bg-blue-500 rounded-lg hover:opacity-80 transition hover:duration-300 ease-in-out text-white text-2xl p-3"
+          class="bg-blue-500 rounded-lg hover:opacity-80 transition hover:duration-300 ease-in-out text-white text-2xl p-2 md:py-3 md:px-3"
         >
           <svg
             viewBox="0 0 32 32"
-            class="w-8 h-8"
+            class="w-6 h-6 md:w-8 md:h-8"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -45,13 +45,19 @@
         <table v-else class="table-auto w-full bg-white rounded-lg">
           <thead>
             <tr class="border-b-2 border-[#f6f6f6]">
-              <th class="p-5 text-left text-slate-900 text-lg font-semibold">
+              <th
+                class="p-5 text-left text-slate-900 text-sm w-2/4 md:text-lg font-semibold"
+              >
                 Task
               </th>
-              <th class="p-5 text-left text-slate-900 text-lg font-semibold">
+              <th
+                class="p-5 text-left text-slate-900 text-sm w-1/4 md:text-lg font-semibold"
+              >
                 Status
               </th>
-              <th class="p-5 text-left text-slate-900 text-lg font-semibold">
+              <th
+                class="p-5 text-left text-slate-900 text-sm w-1/4 md:text-lg font-semibold"
+              >
                 Edit/Delete
               </th>
             </tr>
