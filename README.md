@@ -11,7 +11,7 @@ git clone https://github.com/popskully/todo-app.git
 ## Switch to project directory
 
 ```sh
-cd TODO
+cd todo-app
 ```
 
 ## Install npm
