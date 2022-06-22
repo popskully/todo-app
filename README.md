@@ -1,19 +1,30 @@
-# .
+## Created with ❤
 
-This template should help get you started developing with Vue 3 in Vite.
+Developed by [Davian](https://iamdavian.com/)
 
-## Recommended IDE Setup
+## Clone the project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```sh
+git clone https://github.com/popskully/todo-app.git
+```
 
-## Customize configuration
+## Switch to project directory
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+```sh
+cd TODO
+```
 
-## Project Setup
+## Install npm
 
 ```sh
 npm install
+```
+
+## Install tailwind
+
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 
 ### Compile and Hot-Reload for Development
